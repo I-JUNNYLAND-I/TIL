@@ -1,10 +1,6 @@
----
-description: 컴퓨터의 기본 구성
----
-
 # 컴퓨터 구성
 
-## 하드웨어 구성 <a href="#junny" id="junny"></a>
+## 하드웨어 구성
 
 컴퓨터는 CPU, MEMORY, 입/출력 장치로 구성된다.
 
