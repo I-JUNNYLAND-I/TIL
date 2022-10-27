@@ -22,7 +22,7 @@
 * [🤖 JVM](jvm/jvm/README.md)
   * [JVM과 Heap](jvm/jvm/jvm-heap.md)
   * [GC](jvm/jvm/gc.md)
-  * [Page 1](jvm/jvm/page-1.md)
+  * [GC 튜닝](jvm/jvm/gc-1.md)
 
 ## INFRA
 
