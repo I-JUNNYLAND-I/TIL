@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 JUNNYLAND BLOG](README.md)
+* [👻 JUNNYLAND BLOG](README.md)
 
 ## Overview
 
