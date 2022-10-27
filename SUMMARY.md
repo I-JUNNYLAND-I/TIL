@@ -19,6 +19,10 @@
   * [try-catch 다루기](clean-architecture/chap1.md)
 * [🔮 KOTLIN](jvm/kotlin/README.md)
   * [10분 코틀린 기초떼기](jvm/kotlin/10.md)
+* [🤖 JVM](jvm/jvm/README.md)
+  * [JVM과 Heap](jvm/jvm/jvm-heap.md)
+  * [GC](jvm/jvm/gc.md)
+  * [Page 1](jvm/jvm/page-1.md)
 
 ## INFRA
 
@@ -32,7 +36,7 @@
   * [프로세스](computer-science/undefined/undefined-2.md)
   * [스케줄링](computer-science/undefined/undefined-3.md)
 * [🛠 Network](computer-science/network/README.md)
-  * [네트워크](computer-science/network/undefined.md)
+  * [네트워크](computer-science/network/chap1.md)
   * [이더넷, 1계층](computer-science/network/1.md)
 
 ## STUDY
