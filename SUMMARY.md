@@ -32,8 +32,9 @@
 
 * [💻 쉽게 배우는 운영체제](computer-science/undefined/README.md)
   * [운영체제](computer-science/undefined/undefined.md)
-  * [📝 Setting permissions](computer-science/undefined/setting-permissions.md)
-  * [🧑 Inviting Members](computer-science/undefined/inviting-members.md)
+  * [컴퓨터 구성](computer-science/undefined/undefined-1.md)
+  * [프로세스](computer-science/undefined/undefined-2.md)
+  * [스케줄링](computer-science/undefined/undefined-3.md)
 * [운영체제](computer-science/undefined-1.md)
 * [Page 2](computer-science/page-2.md)
 
