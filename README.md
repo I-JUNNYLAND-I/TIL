@@ -1,4 +1,10 @@
-# 👋 Welcome to A Product
+---
+description: 팀원들이 소소하게 알게된 팁 또는 공부한 내용을 적는 곳 입니다
+---
+
+# 👋 JUNNYLAND BLOG
+
+
 
 {% hint style="info" %}
 **GitBook tip:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
