@@ -28,6 +28,10 @@
 
 * [INFRA](infra/infra.md)
 
+## DB
+
+* [DB](db/db.md)
+
 ## Computer Science
 
 * [💻 쉽게 배우는 운영체제](computer-science/undefined/README.md)
