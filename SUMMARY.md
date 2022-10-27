@@ -35,6 +35,8 @@
   * [컴퓨터 구성](computer-science/undefined/undefined-1.md)
   * [프로세스](computer-science/undefined/undefined-2.md)
   * [스케줄링](computer-science/undefined/undefined-3.md)
+* [🛠 Network](computer-science/network/README.md)
+  * [chap1](computer-science/network/chap1.md)
 
 ## STUDY
 
