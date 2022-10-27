@@ -4,20 +4,12 @@
 
 ## Overview
 
+* [📪 Join With](overview/join-with.md)
 * [💡 What we do](overview/what-we-do.md)
 * [✨ Our Features](overview/our-features.md)
 
-## Manage
-
-* [📪 Join With](manage/join-with.md)
-* [📎 Understanding Projects](manage/understanding-projects.md)
-
 ## Fundamentals
 
-* [🛠 Getting set up](fundamentals/getting-set-up/README.md)
-  * [Page 1](fundamentals/getting-set-up/page-1.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
 * [🎨 For Designers](use-cases/for-designers.md)
 * [🖥 For Developers](use-cases/for-developers.md)
 
