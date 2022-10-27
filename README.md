@@ -7,11 +7,9 @@ coverY: 0
 
 # 👻 JUNNYLAND BLOG
 
-
-
-{% hint style="info" %}
-**GitBook tip:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
+{% embed url="https://github.com/I-JUNNYLAND-I" %}
+junny-land organization
+{% endembed %}
 
 ## Overview
 
