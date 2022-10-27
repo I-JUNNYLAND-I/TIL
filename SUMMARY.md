@@ -2,16 +2,6 @@
 
 * [👻 JUNNYLAND BLOG](README.md)
 
-## Overview
-
-* [📪 Join With](overview/join-with.md)
-* [⁉ QnA](overview/qna.md)
-
-## Fundamentals
-
-* [🎨 For Designers](use-cases/for-designers.md)
-* [🖥 For Developers](use-cases/for-developers.md)
-
 ## JVM
 
 * [☕ JAVA](clean-architecture/README.md)

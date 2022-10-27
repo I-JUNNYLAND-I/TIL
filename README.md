@@ -23,8 +23,8 @@ junny-land organization
 
 문제가 생겼다면 이쪽으로 와주세요!
 
-{% content-ref url="overview/qna.md" %}
-[qna.md](overview/qna.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 함께 하고 싶으신 분들은 신청서를 작성해 주세요!
