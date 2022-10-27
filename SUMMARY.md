@@ -23,8 +23,8 @@
 
 ## JVM
 
-* [📓 Clean Architecture](jvm/clean-architecture/README.md)
-  * [try-catch 다루기](jvm/clean-architecture/try-catch.md)
+* [☕ JAVA](jvm/java/README.md)
+  * [try-catch 다루기](jvm/java/try-catch.md)
 
 ***
 
