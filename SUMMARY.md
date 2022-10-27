@@ -5,8 +5,6 @@
 ## Overview
 
 * [📪 Join With](overview/join-with.md)
-* [💡 What we do](overview/what-we-do.md)
-* [✨ Our Features](overview/our-features.md)
 
 ## Fundamentals
 
