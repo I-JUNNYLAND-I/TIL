@@ -44,7 +44,5 @@
 
 ## STUDY
 
-***
-
 * [☕ Clean Architecture](<clean-architecture/README (1).md>)
   * [chap1](<clean-architecture/chap1 (1).md>)
