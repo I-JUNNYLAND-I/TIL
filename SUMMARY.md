@@ -23,8 +23,8 @@
 
 ## JVM
 
-* [☕ JAVA](clean-architecture/README.md)
-  * [try-catch 다루기](<clean-architecture/chap1 (1).md>)
+* [☕ JAVA](<clean-architecture/README (1).md>)
+  * [try-catch 다루기](clean-architecture/chap1.md)
 
 ***
 
@@ -42,5 +42,5 @@
 
 ***
 
-* [☕ Clean Architecture](<clean-architecture/README (1).md>)
-  * [chap1](clean-architecture/chap1.md)
+* [☕ Clean Architecture](clean-architecture/README.md)
+  * [chap1](<clean-architecture/chap1 (1).md>)
