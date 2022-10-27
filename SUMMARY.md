@@ -27,6 +27,9 @@
 
 * [📚 Study Room](study-room.md)
 
-## Group 1
+## 🖥 Computer Science
 
-* [🖥 Computer Science](group-1/computer-science.md)
+* [운영체제](computer-science/undefined.md)
+* [Page 2](computer-science/page-2.md)
+
+## STUDY
