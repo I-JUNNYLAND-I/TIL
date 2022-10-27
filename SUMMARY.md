@@ -35,7 +35,10 @@
   * [컴퓨터 구성](computer-science/undefined/undefined-1.md)
   * [프로세스](computer-science/undefined/undefined-2.md)
   * [스케줄링](computer-science/undefined/undefined-3.md)
-* [운영체제](computer-science/undefined-1.md)
-* [Page 2](computer-science/page-2.md)
 
 ## STUDY
+
+***
+
+* [📓 Clean Architecture](clean-architecture/README.md)
+  * [chap1](clean-architecture/chap1.md)
