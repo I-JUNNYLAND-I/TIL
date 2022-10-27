@@ -26,3 +26,7 @@
 ***
 
 * [📚 Study Room](study-room.md)
+
+## Group 1
+
+* [🖥 Computer Science](group-1/computer-science.md)
