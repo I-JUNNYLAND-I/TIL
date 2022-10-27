@@ -18,13 +18,13 @@
   * [Page 1](fundamentals/getting-set-up/page-1.md)
   * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
   * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
-* [🎨 For Designers](fundamentals/for-designers.md)
-* [🖥 For Developers](fundamentals/for-developers.md)
+* [🎨 For Designers](use-cases/for-designers.md)
+* [🖥 For Developers](use-cases/for-developers.md)
 
 ## JVM
 
-* [☕ JAVA](jvm/java/README.md)
-  * [try-catch 다루기](jvm/java/try-catch.md)
+* [☕ JAVA](clean-architecture/README.md)
+  * [try-catch 다루기](clean-architecture/chap1.md)
 
 ***
 
