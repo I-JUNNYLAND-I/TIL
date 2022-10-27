@@ -23,12 +23,10 @@
 
 ## JVM
 
-* [☕ JAVA](<clean-architecture/README (1).md>)
+* [☕ JAVA](clean-architecture/README.md)
   * [try-catch 다루기](clean-architecture/chap1.md)
-
-***
-
-* [📚 Study Room](study-room.md)
+* [🔮 KOTLIN](jvm/kotlin/README.md)
+  * [10분 코틀린 기초떼기](jvm/kotlin/10.md)
 
 ## Computer Science
 
@@ -42,5 +40,5 @@
 
 ***
 
-* [☕ Clean Architecture](clean-architecture/README.md)
+* [☕ Clean Architecture](<clean-architecture/README (1).md>)
   * [chap1](<clean-architecture/chap1 (1).md>)
