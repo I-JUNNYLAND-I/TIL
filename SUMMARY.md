@@ -32,7 +32,8 @@
   * [프로세스](computer-science/undefined/undefined-2.md)
   * [스케줄링](computer-science/undefined/undefined-3.md)
 * [🛠 Network](computer-science/network/README.md)
-  * [chap1](computer-science/network/chap1.md)
+  * [네트워크](computer-science/network/undefined.md)
+  * [이더넷, 1계층](computer-science/network/1.md)
 
 ## STUDY
 
