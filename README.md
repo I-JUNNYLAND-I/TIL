@@ -20,3 +20,8 @@ junny-land organization
 {% endhint %}
 
 ## Manage
+
+문제가 생겼다면 이쪽으로 와주세요!
+
+
+
