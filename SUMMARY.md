@@ -7,10 +7,10 @@
 * [💡 What we do](overview/what-we-do.md)
 * [✨ Our Features](overview/our-features.md)
 
-## Product Guides
+## Manage
 
-* [📪 Making a post](product-guides/making-a-post.md)
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
+* [📪 Join With](manage/join-with.md)
+* [📎 Understanding Projects](manage/understanding-projects.md)
 
 ## Fundamentals
 
