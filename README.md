@@ -12,5 +12,5 @@ junny-land organization
 {% endembed %}
 
 {% hint style="info" %}
-여러분의 도우미 주니의 블로그 입니
+여러분의 도우미 주니의 블로그 입니다
 {% endhint %}
