@@ -29,6 +29,7 @@
   * [프로세스](computer-science/undefined/undefined-2.md)
   * [스케줄링](computer-science/undefined/undefined-3.md)
   * [프로세스 간 통신](computer-science/undefined/undefined-4.md)
+  * [교착 상태](computer-science/undefined/undefined-5.md)
 * [🛠 Network](computer-science/network/README.md)
   * [네트워크](computer-science/network/chap1.md)
   * [이더넷, 1계층](computer-science/network/1.md)
