@@ -45,7 +45,10 @@ try (FileInputStream file = new FileInputStream("test.txt");
 
 
 
-🌈 CloseObject의 자원 회수는 File의 삭제로 정의하였다     &#x20;
+🌈 CloseObject의 자원 회수는 File의 삭제로 정의하였다   \
+`try{}` 가 종료될때 close()가 실행되는 구조로 이루어져있다.
+
+
 
 ```java
 public class CloseObject implements AutoCloseable {
@@ -70,3 +73,17 @@ public static void main(String[] args) {
   catch (Exception e) {}
 }
 ```
+
+하지만 이 예시는 잘못된 부분이 있다
+
+AutoCloseable의 설명을 읽어보면, `InterruptedException` 와 `멱등성`  을 유지해야 한다고 적혀있
+
+{% hint style="info" %}
+멱등성 : 여러번 실행하더라도 같은 결과를 기대할 수 있어야 한
+{% endhint %}
+
+하지만 현재의 Close는 두번 호출이 되었을때 기존 File을 다시 제거 할수 없으므로 같은 응답이 보장할 수 없다.
+
+\
+
+
