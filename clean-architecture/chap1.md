@@ -77,7 +77,7 @@ public static void main(String[] args) {
 AutoCloseable의 설명을 읽어보면, `InterruptedException` 를 발생시켜선 안된다 & `멱등성` 을 유지해야 한다는 내용이 적혀있다  &#x20;
 
 {% hint style="info" %}
-멱등성 : 여러번 실행하더라도 같은 결과를 기대할 수 있어야 한
+멱등성 : 여러번 실행하더라도 같은 결과를 기대할 수 있어야 한다 &#x20;
 {% endhint %}
 
 하지만 현재의 Close는 두번 호출이 되었을때 기존 File을 다시 제거 할수 없으므로 같은 응답이 보장할 수 없다.
