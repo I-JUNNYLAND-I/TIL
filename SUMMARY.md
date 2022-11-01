@@ -4,8 +4,8 @@
 
 ## JVM
 
-* [☕ JAVA](jvm/java/README.md)
-  * [try-catch](jvm/java/chap1.md)
+* [☕ JAVA](clean-architecture/README.md)
+  * [try-catch](clean-architecture/chap1.md)
 * [🔮 KOTLIN](jvm/kotlin/README.md)
   * [10분 코틀린 기초떼기](jvm/kotlin/10.md)
 * [🤖 JVM](jvm/jvm/README.md)

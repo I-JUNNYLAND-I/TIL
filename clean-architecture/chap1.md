@@ -2,7 +2,7 @@
 description: try-catch 안전하게 사용하기
 ---
 
-# try-catch 다루기
+# try-catch
 
 ### try-with-resources
 
@@ -45,7 +45,7 @@ try (FileInputStream file = new FileInputStream("test.txt");
 
 
 
-🌈 CloseObject의 자원 회수는 File의 삭제이
+🌈 CloseObject의 자원 회수는 File의 삭제로 정의하였
 
 ```java
 public class CloseObject implements AutoCloseable {
