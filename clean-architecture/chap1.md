@@ -45,7 +45,7 @@ try (FileInputStream file = new FileInputStream("test.txt");
 
 
 
-🌈 CloseObject의 자원 회수는 File의 삭제로 정의하였
+🌈 CloseObject의 자원 회수는 File의 삭제로 정의하였다     &#x20;
 
 ```java
 public class CloseObject implements AutoCloseable {
