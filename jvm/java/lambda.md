@@ -67,4 +67,6 @@ public static void main(String[] args) {
 * [ ] BiFunction,BiPredicate, BiConsumer ... 등 Bi가 붙어 두개의 인자를 받는 인터페이스
 * [ ] ToIntFuction, ToDoubleFunction ... 등 형변환을 해주는 인터페이스
 
-등 응용해서 정의된 여러 함수형 인터페이스가 있으니 개발자가 직접 함수형인터페이스를 구현할만한 일은 거의 없
+등 응용해서 정의된 여러 함수형 인터페이스가 있으니,
+
+&#x20;개발자가 직접 함수형인터페이스를 구현할만한 일은 거의 없다   &#x20;
