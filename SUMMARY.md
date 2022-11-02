@@ -5,6 +5,7 @@
 ## JVM
 
 * [☕ JAVA](clean-architecture/README.md)
+  * [Functional](jvm/java/functional.md)
   * [try-catch](clean-architecture/chap1.md)
 * [🔮 KOTLIN](jvm/kotlin/README.md)
   * [10분 코틀린 기초떼기](jvm/kotlin/10.md)
