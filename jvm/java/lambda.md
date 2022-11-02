@@ -14,7 +14,7 @@ of.ifPresent(junny -> System.out.println("HELLO"));
 
 함수형 프로그래밍 방식이 떠오르면서,
 
-자바 진형에서도 이와 비슷하게 구현할 수 있는 선언형 프로그래밍 방식을 추구하는 사람들이 늘어나고 있는 것 같다&#x20;
+자바 진형에서도 이와 비슷하게 구현할 수 있는 선언형 프로그래밍 방식을 추구하는 사람들이 늘어나고 있는 추세&#x20;
 
 그중 이 함수형 인터페이스는 함수형 프로그래밍의 고차함수를 흉내낼 수 있다
 
@@ -44,7 +44,7 @@ public static void main(String[] args) {
 
 {% hint style="info" %}
 ```autoit
-@FunctionalInterface : 2개이상의 선언을 방지한
+@FunctionalInterface : 2개이상의 선언을 방지한다  
 ```
 {% endhint %}
 
