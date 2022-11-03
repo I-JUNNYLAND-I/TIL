@@ -11,6 +11,8 @@ description: What is❔
 
 <img src="../../.gitbook/assets/file.drawing.svg" alt="" class="gitbook-drawing">
 
+### How do Code❔
+
 {% embed url="https://gist.github.com/39386cc4c7b977287a0c1772ebaa4668.git" %}
 
 * 과목이 늘어나도 합계를 구하는 부분에 영향이 가지않는다 (OCP)
