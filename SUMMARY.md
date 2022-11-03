@@ -40,6 +40,8 @@
 * [🛠 Network](computer-science/network/README.md)
   * [네트워크](computer-science/network/chap1.md)
   * [이더넷, 1계층](computer-science/network/1.md)
+* [💡 Design pattern](computer-science/design-pattern/README.md)
+  * [Compisite](computer-science/design-pattern/compisite.md)
 
 ## STUDY
 
