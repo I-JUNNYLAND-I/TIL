@@ -12,7 +12,7 @@ File을 읽고&쓰기위해 InputStream,OutputStream을 선언해주어야 한
 
 출력스트림이 1바이트를 사용하면 입력스트림이 1 바이트를 읽는 형식이다
 
-* IO는 blocking이다&#x20;
+* IO는 blocking이다
 
 IntputStream\&OutpuStream의 입&출력을 호출하면 데이터를 입력 받을때 까지 블로킹된다
 
@@ -38,11 +38,11 @@ Thread를 Intterupt 하여 빠져 나올 수 있다는 장점이 있습니다.
 buffer : 버퍼는 데이터를 모아서 옮겨주는 방식으로 기존 IO에서도 BufferedStream을 사용하여 단점을 극복하기도 한다
 {% endhint %}
 
-<img src="../../../.gitbook/assets/file.drawing.svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.drawing (3).svg" alt="" class="gitbook-drawing">
 
 ## What is difference❔
 
-### 경로의 정의&#x20;
+### 경로의 정의
 
 NIO는 Path, Paths를 이용하여 경로를 정의합니
 
@@ -51,7 +51,7 @@ File file = new File("C:\\Users\\user\\Desktop\\test.txt");
 Path path = Paths.get("C:\\Users\\user\\Desktop","test.txt");
 ```
 
-### 기능의 차이&#x20;
+### 기능의 차이
 
 * Dir 생성
 
@@ -89,8 +89,7 @@ Files.createTempFile(path);
 
 Directory 내부에서 파일의 변경을 감지한다.
 
-해당 Directory의 변화를 감지할 수 있도록 watchService를 등록해준다\
-
+해당 Directory의 변화를 감지할 수 있도록 watchService를 등록해준다\\
 
 ```java
 Path path = Paths.get("./junny");
@@ -122,7 +121,7 @@ while (true) {
 }
 ```
 
-> &#x20;List\<WatchEvent\<?>>인 이유는 여러 파일을 동시에 감지하는 경우를 위해서 입니다&#x20;
+> List\<WatchEvent\<?>>인 이유는 여러 파일을 동시에 감지하는 경우를 위해서 입니다
 
 ```java
 WatchKey take = watchService.take();
@@ -140,8 +139,6 @@ for (WatchEvent<?> watchEvent : watchEvents) {
 }
 ```
 
-
-
 <details>
 
 <summary>Help Us<br><a href="https://palpit.tistory.com/640">https://palpit.tistory.com/640</a></summary>
@@ -149,4 +146,3 @@ for (WatchEvent<?> watchEvent : watchEvents) {
 
 
 </details>
-

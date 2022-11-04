@@ -33,6 +33,7 @@
 * [Operating System](interview/OS/README.md)
   * [printf 함수가 실행되는 방식](interview/OS/printf.md)
   * [인터럽트는 어디에 저장하나요?](interview/OS/undefined.md)
+  * [BIOS\&UEFI 무슨 차이가 있나요?](interview/OS/bios-and-uefi.md)
 
 ## Computer Science
 
