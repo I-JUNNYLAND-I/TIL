@@ -4,11 +4,11 @@
 
 ## JVM
 
-* [☕ JAVA](jvm/java/README.md)
+* [☕ JAVA](clean-architecture/README.md)
   * [NIO](jvm/java/nio/README.md)
     * [File](jvm/java/nio/file.md)
   * [Lambda](jvm/java/lambda.md)
-  * [try-catch](jvm/java/chap1.md)
+  * [try-catch](clean-architecture/chap1.md)
 * [🔮 KOTLIN](jvm/kotlin/README.md)
   * [10분 코틀린 기초떼기](jvm/kotlin/10.md)
 * [🤖 JVM](jvm/jvm/README.md)
@@ -35,13 +35,13 @@
 
 ## Computer Science
 
-* [💻 쉽게 배우는 운영체제](computer-science/book1/README.md)
-  * [운영체제](computer-science/book1/undefined.md)
-  * [컴퓨터 구성](computer-science/book1/undefined-1.md)
-  * [프로세스](computer-science/book1/undefined-2.md)
-  * [스케줄링](computer-science/book1/undefined-3.md)
-  * [프로세스 간 통신](computer-science/book1/undefined-4.md)
-  * [교착 상태](computer-science/book1/undefined-5.md)
+* [💻 쉽게 배우는 운영체제](computer-science/undefined/README.md)
+  * [운영체제](computer-science/undefined/undefined.md)
+  * [컴퓨터 구성](computer-science/undefined/undefined-1.md)
+  * [프로세스](computer-science/undefined/undefined-2.md)
+  * [스케줄링](computer-science/undefined/undefined-3.md)
+  * [프로세스 간 통신](computer-science/undefined/undefined-4.md)
+  * [교착 상태](computer-science/undefined/undefined-5.md)
 * [🛠 Network](computer-science/network/README.md)
   * [네트워크](computer-science/network/chap1.md)
   * [이더넷, 1계층](computer-science/network/1.md)
