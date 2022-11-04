@@ -5,12 +5,12 @@
 ## JVM
 
 * [☕ JAVA](clean-architecture/README.md)
-  * [New Builder ?](jvm/java/new-builder.md)
+  * [\[FUN\] New Builder ?](jvm/java/fun-new-builder.md)
   * [NIO](jvm/java/nio/README.md)
     * [File](jvm/java/nio/file.md)
   * [Lambda](jvm/java/lambda.md)
   * [try-catch](jvm/java/chap1/README.md)
-    * [Remove resource](jvm/java/chap1/remove-resource.md)
+    * [\[FUN\] Remove resource](jvm/java/chap1/fun-remove-resource.md)
 * [🔮 KOTLIN](jvm/kotlin/README.md)
   * [10분 코틀린 기초떼기](jvm/kotlin/10.md)
 * [🤖 JVM](jvm/jvm/README.md)
