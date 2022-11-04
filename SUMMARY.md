@@ -32,7 +32,7 @@
 
 * [Operating System](interview/OS/README.md)
   * [printf 함수가 실행되는 방식](interview/OS/printf.md)
-  * [인터럽트는 어디에 보관됩니까?](interview/OS/undefined.md)
+  * [인터럽트는 어디에 저장하나요?](interview/OS/undefined.md)
 
 ## Computer Science
 
