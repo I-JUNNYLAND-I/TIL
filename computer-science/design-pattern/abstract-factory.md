@@ -15,3 +15,12 @@ description: What is❔
 {% embed url="https://gist.github.com/Junnyjun/00138978c31195578ab2496d88a19e03" %}
 
 &#x20;새로운 Hwawei 공장이 들어오거나, 각 공장의 제품이 추가될때 일관성 있게 추가 할 수 있다.
+
+
+
+```
+Apple에서 1000000을 가져간 결과 출력
+
+Apple IphoneMini camera
+Apple IphoneMini cpu
+```
