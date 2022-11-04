@@ -9,7 +9,7 @@ description: What is❔
 * 전체-부분의 형태를 정의할 떄 유용하게 사용
 * 사용자는 동일한 인터페이스를 사용할 수 있다.
 
-<img src="../../.gitbook/assets/file.drawing.svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.drawing (1).svg" alt="" class="gitbook-drawing">
 
 ### How do Code❔
 
