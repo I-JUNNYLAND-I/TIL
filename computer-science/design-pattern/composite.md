@@ -13,7 +13,15 @@ description: What is❔
 
 ### How do Code❔
 
+각 각 시험들로부터 전체의 난이도를 출력하는 예제입니다.
+
 {% embed url="https://gist.github.com/39386cc4c7b977287a0c1772ebaa4668.git" %}
 
 * 과목이 늘어나도 합계를 구하는 부분에 영향이 가지않는다 (OCP)
 * 전체(Component)가 부분(exam)을 가진 관계에서 유용하다   &#x20;
+
+
+
+```
+출력 결과는 3입니다.
+```
