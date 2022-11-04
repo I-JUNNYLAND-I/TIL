@@ -35,7 +35,7 @@ Thread를 Intterupt 하여 빠져 나올 수 있다는 장점이 있습니다.
 작업 준비가 완료된 채널만 선택해서 처리하기 때문에 Blocking 되지 않습니
 
 {% hint style="info" %}
-buffer : 버퍼는 데이터를 모아서 옮겨주는 방식으로 기존 IO에서도 BufferedStrea을 사용하여 단점을 극복하기도 한다
+buffer : 버퍼는 데이터를 모아서 옮겨주는 방식으로 기존 IO에서도 BufferedStream을 사용하여 단점을 극복하기도 한다
 {% endhint %}
 
 <img src="../../../.gitbook/assets/file.drawing.svg" alt="" class="gitbook-drawing">
