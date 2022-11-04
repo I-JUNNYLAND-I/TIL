@@ -5,6 +5,7 @@
 ## JVM
 
 * [☕ JAVA](clean-architecture/README.md)
+  * [New Builder Pattern?](jvm/java/new-builder-pattern.md)
   * [NIO](jvm/java/nio/README.md)
     * [File](jvm/java/nio/file.md)
   * [Lambda](jvm/java/lambda.md)
@@ -28,12 +29,12 @@
 
 * [INFRA](infra/infra.md)
 
-## INTERVIEW
+## INFORMATION
 
-* [Operating System](interview/OS/README.md)
-  * [printf 함수가 실행되는 방식](interview/OS/printf.md)
-  * [인터럽트는 어디에 저장하나요?](interview/OS/undefined.md)
-  * [BIOS\&UEFI 무슨 차이가 있나요?](interview/OS/bios-and-uefi.md)
+* [⚙ Operating System](information/OS/README.md)
+  * [printf 함수가 실행되는 방식](information/OS/printf.md)
+  * [인터럽트는 어디에 저장하나요?](information/OS/undefined.md)
+  * [BIOS\&UEFI 무슨 차이가 있나요?](information/OS/bios-and-uefi.md)
 
 ## Computer Science
 
