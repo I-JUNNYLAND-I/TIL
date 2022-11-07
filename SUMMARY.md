@@ -4,7 +4,7 @@
 
 ## JVM
 
-* [☕ JAVA](clean-architecture/README.md)
+* [☕ JAVA](jvm/java/README.md)
   * [\[FUN\] New Builder ?](jvm/java/fun-new-builder.md)
   * [NIO](jvm/java/nio/README.md)
     * [File](jvm/java/nio/file.md)
@@ -43,6 +43,7 @@
 * [💡 Design pattern](computer-science/design-pattern/README.md)
   * [Composite](computer-science/design-pattern/composite.md)
   * [abstract factory](computer-science/design-pattern/abstract-factory.md)
+  * [Page 1](computer-science/design-pattern/page-1.md)
 
 ## STUDY
 
