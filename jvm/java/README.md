@@ -1,2 +1,2 @@
-# ☕ Clean Architecture
+# ☕ JAVA
 

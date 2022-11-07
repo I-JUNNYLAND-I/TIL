@@ -54,4 +54,4 @@ UEFI에서 파티션 테이블의 레이아웃에 대한 표준입니다.\
 boot loader가 없습니다
 {% endhint %}
 
-<img src="../../.gitbook/assets/file.drawing (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.drawing (1) (2).svg" alt="" class="gitbook-drawing">

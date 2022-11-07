@@ -6,7 +6,7 @@ description: What is❔
 
 * 구체적인 클래스에 의존하지 않으며, 서로의 의존성들의 조합을 만드는 인터페이스만 제공한다.
 
-<img src="../../.gitbook/assets/file.drawing (2).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.drawing (2) (1).svg" alt="" class="gitbook-drawing">
 
 ### How do Code❔
 

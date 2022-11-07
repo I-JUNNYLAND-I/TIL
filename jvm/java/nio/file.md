@@ -32,7 +32,7 @@ Thread의 Interrupt는 불가능 하며 Stream을 닫을때 까지 블로킹은 
 
 Thread를 Intterupt 하여 빠져 나올 수 있다는 장점이 있습니다.
 
-작업 준비가 완료된 채널만 선택해서 처리하기 때문에 Blocking 되지 않습니
+작업 준비가 완료된 채널만 선택해서 처리하기 때문에 Blocking 되지 않습니다.&#x20;
 
 {% hint style="info" %}
 buffer : 버퍼는 데이터를 모아서 옮겨주는 방식으로 기존 IO에서도 BufferedStream을 사용하여 단점을 극복하기도 한다
@@ -44,7 +44,7 @@ buffer : 버퍼는 데이터를 모아서 옮겨주는 방식으로 기존 IO에
 
 ### 경로의 정의
 
-NIO는 Path, Paths를 이용하여 경로를 정의합니
+NIO는 Path, Paths를 이용하여 경로를 정의합니다.&#x20;
 
 ```java
 File file = new File("C:\\Users\\user\\Desktop\\test.txt");
@@ -89,7 +89,7 @@ Files.createTempFile(path);
 
 Directory 내부에서 파일의 변경을 감지한다.
 
-해당 Directory의 변화를 감지할 수 있도록 watchService를 등록해준다\\
+해당 Directory의 변화를 감지할 수 있도록 watchService를 등록해준다
 
 ```java
 Path path = Paths.get("./junny");
@@ -100,7 +100,7 @@ path.register(watchService,
   StandardWatchEventKinds.ENTRY_DELETE);
 ```
 
-WatchService는 이벤트(변경) 정보를 가진 Key를 생성하여 큐에 저장한
+WatchService는 이벤트(변경) 정보를 가진 Key를 생성하여 큐에 저장한다.&#x20;
 
 ```java
 while (true) {

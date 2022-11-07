@@ -8,6 +8,7 @@
   * [\[FUN\] New Builder ?](jvm/java/fun-new-builder.md)
   * [NIO](jvm/java/nio/README.md)
     * [File](jvm/java/nio/file.md)
+    * [BUFFER](jvm/java/nio/buffer.md)
   * [Lambda](jvm/java/lambda.md)
   * [try-catch](jvm/java/chap1/README.md)
     * [\[FUN\] Remove resource](jvm/java/chap1/fun-remove-resource.md)
