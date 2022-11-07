@@ -84,6 +84,6 @@ CPU의 비트는 한번에 다룰 수 있는 데이터의 최대 크기를 의�
 
 버스의 크기(대역폭)도 32bit이다
 
-<img src="../../.gitbook/assets/file.drawing (5) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.drawing (5).svg" alt="" class="gitbook-drawing">
 
 CPU의 비트는 메모리 주소 공간의 크기와도 연관이 잇다. 총$$2^{32}-1$$개이며 약 4GB이다

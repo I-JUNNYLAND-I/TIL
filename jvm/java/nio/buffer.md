@@ -71,7 +71,7 @@ ByteBuffer byteBuffer = ByteBuffer.allocateDirect(100);
 뒤쪽 바이트부터 먼저 처리 => Little endian
 ```
 
-<img src="../../../.gitbook/assets/file.drawing (5).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.drawing (6).svg" alt="" class="gitbook-drawing">
 
 {% hint style="info" %}
 Little-endian -> Big-endian 변환 ? \
@@ -93,4 +93,8 @@ ByteBuffer byteBuffer =
 
 ### 버퍼의 읽기&쓰기
 
-<img src="../../../.gitbook/assets/file.drawing.svg" alt="" class="gitbook-drawing">
+버퍼에서 데이터를 저장(input Byte)은 put() \
+버퍼에서 데이터를 읽기(output Byte)는 get()
+
+<img src="../../../.gitbook/assets/file.drawing.svg" alt="Buffer Sample" class="gitbook-drawing">
+
