@@ -4,7 +4,7 @@
 
 ## JVM
 
-* [☕ JAVA](jvm/java/README.md)
+* [☕ JAVA](clean-architecture/README.md)
   * [\[FUN\] New Builder ?](jvm/java/fun-new-builder.md)
   * [NIO](jvm/java/nio/README.md)
     * [File](jvm/java/nio/file.md)

@@ -6,7 +6,7 @@ description: 데이터 입출력
 
 NIO에서 데이터의 입&출력은 읽고 쓰기가 가능한 메모리 배열인 버퍼를 사용해야 합니다.
 
-<img src="../../../.gitbook/assets/file.drawing (2).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.drawing (1).svg" alt="" class="gitbook-drawing">
 
 ### Buffer의 종류
 
@@ -64,13 +64,33 @@ ByteBuffer byteBuffer = ByteBuffer.allocateDirect(100);
 
 ## ByteOrder
 
+바이트의 처리 순서는 운영체제마다 다릅니다. 그리하여 데이터를 전송&수신 할때 데이터를 다루는 버퍼도 고려해야 합니다
+
+```
 앞쪽 바이트부터 먼저 처리 => Big endian
-
 뒤쪽 바이트부터 먼저 처리 => Little endian
+```
 
-<img src="../../../.gitbook/assets/file.drawing (1).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.drawing (5).svg" alt="" class="gitbook-drawing">
 
 {% hint style="info" %}
 Little-endian -> Big-endian 변환 ? \
-`ByteBuffer byteBuffer = ByteBuffer.allocateDirect(100).order(ByteOrder.nativeOrder());`
+ByteBuffer byteBuffer =
+
+&#x20;ByteBuffer.allocateDirect(100).order(ByteOrder.BIG\_ENDIAN);
 {% endhint %}
+
+### Buffer Position
+
+버퍼에는 네가지의 속성이 존재합니다
+
+|  properties |  description                                                 |
+| ----------- | ------------------------------------------------------------ |
+| position    | <p>현재의 커서이다.<br> 0부터 시작하는 인덱스 이며, limit보다 작다</p>             |
+| limit       | <p>버퍼가 사용할 수 있는 한계를 나타낸다. <br>capacity 보다 작거나 같은 값을 가진다.</p> |
+| capacity    | 버퍼의 최대 데이터의 수를 나타낸다.                                         |
+| mark        | <p>reset()으로 돌아오는 위치를 지정할 수 있다<br>(position보다 항상 작다).</p>    |
+
+### 버퍼의 읽기&쓰기
+
+<img src="../../../.gitbook/assets/file.drawing.svg" alt="" class="gitbook-drawing">
