@@ -98,3 +98,15 @@ ByteBuffer byteBuffer =
 
 <img src="../../../.gitbook/assets/file.drawing.svg" alt="Buffer Sample" class="gitbook-drawing">
 
+### 버퍼 변환
+
+#### ByteBuffer => String
+
+```java
+// 아래 byte[]를 디코딩하면?
+// byte[] bytes = new byte[]{87, 101, 108, 99, 111, 109, 101, 32, 116, 111, 32, 74, 117, 110, 110, 121, 45, 76, 97, 110, 100};
+public String byteToString(byte[] bytes) {
+        Charset charset = StandardCharsets.UTF_8;
+        return charset.decode(ByteBuffer.wrap(bytes)).toString();
+    }
+```
