@@ -30,8 +30,6 @@
 
 * [INFRA](infra/infra.md)
 
-## INFORMATION
-
 ## Computer Science
 
 * [⚙ Operating System](information/OS/README.md)
