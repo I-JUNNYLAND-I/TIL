@@ -110,3 +110,12 @@ public String byteToString(byte[] bytes) {
         return charset.decode(ByteBuffer.wrap(bytes)).toString();
     }
 ```
+
+#### String => Byte
+
+```java
+String data = "Welcome to Junny-Land";
+ByteBuffer buffer = charset.encode(data);
+```
+
+이와 비슷한 다른 타입의 Buffer도 동일한 형식으로 Encode, Decode해주면됩니다.
