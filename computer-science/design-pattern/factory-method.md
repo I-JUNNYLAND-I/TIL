@@ -16,3 +16,10 @@ description: 객체 생성 처리를 서브 클래스로 분리
 
 ### How do Code&#x20;
 
+{% embed url="https://gist.github.com/Junnyjun/7d1801f2949eb7bd01ca60318a5d1cde" %}
+
+### More Reformation
+
+색을 생성해주는 객체는 계속 생성하는 것 보다 기존것을 이용하는 것이 더 바람직합니다
+
+{% embed url="https://gist.github.com/Junnyjun/4772f85c0d8290a79504ca808d8aaf1f" %}
