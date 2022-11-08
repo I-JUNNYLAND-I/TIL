@@ -43,8 +43,8 @@
   * [이더넷, 1계층](computer-science/network/1.md)
 * [💡 Design pattern](computer-science/design-pattern/README.md)
   * [Composite](computer-science/design-pattern/composite.md)
-  * [abstract factory](computer-science/design-pattern/abstract-factory.md)
-  * [Page 1](computer-science/design-pattern/page-1.md)
+  * [Abstract Factory](computer-science/design-pattern/abstract-factory.md)
+  * [Factory Method](computer-science/design-pattern/factory-method.md)
 
 ## STUDY
 
