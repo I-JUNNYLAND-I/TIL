@@ -6,3 +6,7 @@
 ****
 
 <img src="../../.gitbook/assets/file.drawing.svg" alt="" class="gitbook-drawing">
+
+### How do Code?
+
+{% embed url="https://gist.github.com/Junnyjun/f2fd9053f2e6afc0a21810517d644e70" %}
