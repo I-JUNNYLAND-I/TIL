@@ -45,6 +45,7 @@
   * [Composite](computer-science/design-pattern/composite.md)
   * [Abstract Factory](computer-science/design-pattern/abstract-factory.md)
   * [Factory Method](computer-science/design-pattern/factory-method.md)
+  * [Template Method](computer-science/design-pattern/template-method.md)
 
 ## STUDY
 
