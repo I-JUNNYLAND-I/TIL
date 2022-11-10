@@ -57,6 +57,7 @@
   * [프로세스 간 통신](computer-science/undefined/undefined-4.md)
   * [교착 상태](computer-science/undefined/undefined-5.md)
   * [메모리 관리](study/book1/undefined-6.md)
+  * [가상 메모리](study/undefined/undefined-7.md)
 * [☕ Clean Architecture](<clean-architecture/README (1).md>)
   * [설계와 아키텍쳐](<clean-architecture/chap1 (1).md>)
   * [벽돌부터 시작하기](study/readme-1/undefined.md)

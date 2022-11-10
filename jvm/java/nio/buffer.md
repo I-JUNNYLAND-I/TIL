@@ -96,7 +96,7 @@ ByteBuffer byteBuffer =
 버퍼에서 데이터를 저장(input Byte)은 put() \
 버퍼에서 데이터를 읽기(output Byte)는 get()
 
-<img src="../../../.gitbook/assets/file.drawing (1).svg" alt="Buffer Sample" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.drawing (1) (4).svg" alt="Buffer Sample" class="gitbook-drawing">
 
 ### 버퍼 변환
 
