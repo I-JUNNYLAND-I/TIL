@@ -10,7 +10,7 @@ NIO에서 데이터의 입&출력은 읽고 쓰기가 가능한 메모리 배열
 
 ### Buffer의 종류
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;버퍼 클래스의 이름으로 어떤 데이터를 옮기는 버퍼인지 유추할 수 있다.
 
