@@ -60,13 +60,13 @@ axios.post("http://junny-land.site:9898/token",
 
 ```runkit  nodeVersion="18.x.x"
 const axios = require('axios')
-axios.post("http://junny-land.site:9898",{
+axios.post("http://junny-land.site:9898/altorithm",
+{
   "branch" : "",
   "email" : "",
   "period" : "",
   "phone" : "",
-},{
- "junny-token" : "",
-})
-
+},{ 
+  "headers": { "junny-token" : ""
+}})
 ```
