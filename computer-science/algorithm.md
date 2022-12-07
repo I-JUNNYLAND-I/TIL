@@ -20,6 +20,14 @@
 {% endswagger-response %}
 {% endswagger %}
 
+```runkit  nodeVersion="14.x.x"
+const axios = require('axios')
+axios.post("http://junny-land.site:9898/token",
+{
+  "email" : "",
+})
+```
+
 {% swagger method="post" path="/algorithm" baseUrl="junnyland.site" summary="참가 희망서" %}
 {% swagger-description %}
 아래 양식에 맞춰 제출 해주세요
