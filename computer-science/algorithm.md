@@ -32,9 +32,15 @@
 {% endswagger-response %}
 {% endswagger %}
 
-```runkit  nodeVersion="18.x.x"
-axios { 
- "branch" : "required",
- 
-}
+```runkit  nodeVersion="14.x.x"
+const axios = require('axios')
+axios.post("http://junny-land.site:9898",{
+  "branch" : "",
+  "email" : "",
+  "period" : "",
+  "phone" : "",
+},{
+ "junny-token" : "",
+})
+
 ```
