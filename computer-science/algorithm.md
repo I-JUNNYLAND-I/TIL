@@ -2,9 +2,25 @@
 
 [Read me](https://github.com/I-JUNNYLAND-I/algorithm/blob/main/README.md)
 
+{% swagger method="post" path="/token" baseUrl="junnyland.site" summary="토큰 발급" %}
+{% swagger-description %}
+이메일을 입력해 주세요
+{% endswagger-description %}
 
+{% swagger-parameter in="body" name="email" required="true" %}
+토큰을 받을 이메일
+{% endswagger-parameter %}
 
-{% swagger method="post" path="" baseUrl="" summary="참가 희망서" %}
+{% swagger-response status="201: Created" description="전송되었습니다" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="post" path="/algorithm" baseUrl="junnyland.site" summary="참가 희망서" %}
 {% swagger-description %}
 아래 양식에 맞춰 제출 해주세요
 {% endswagger-description %}
