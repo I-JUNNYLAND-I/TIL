@@ -1,6 +1,8 @@
 # 🖇 Algorithm
 
-[Join Us](https://github.com/I-JUNNYLAND-I/algorithm/blob/main/README.md)
+[Read me](https://github.com/I-JUNNYLAND-I/algorithm/blob/main/README.md)
+
+
 
 {% swagger method="post" path="" baseUrl="" summary="참가 희망서" %}
 {% swagger-description %}
@@ -32,7 +34,7 @@
 {% endswagger-response %}
 {% endswagger %}
 
-```runkit  nodeVersion="14.x.x"
+```runkit  nodeVersion="18.x.x"
 const axios = require('axios')
 axios.post("http://junny-land.site:9898",{
   "branch" : "",
