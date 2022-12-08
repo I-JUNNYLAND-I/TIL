@@ -20,12 +20,14 @@
 {% endswagger-response %}
 {% endswagger %}
 
-```runkit  nodeVersion="14.x.x"
+```runkit  nodeVersion="18.x.x"
 const axios = require('axios')
-axios.post("http://junny-land.site:9898/token",
+var url = process.env.TOKEN;
+axios.post(url,
 {
   "email" : "",
 })
+
 ```
 
 {% swagger method="post" path="/algorithm" baseUrl="junnyland.site" summary="참가 희망서" %}
