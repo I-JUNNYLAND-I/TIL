@@ -62,7 +62,8 @@ axios.post(url,
 
 ```runkit  nodeVersion="18.x.x"
 const axios = require('axios')
-axios.post("http://junny-land.site:9898/altorithm",
+var url = process.env.SIGN;
+axios.post(url,
 {
   "branch" : "",
   "email" : "",
