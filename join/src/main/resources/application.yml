@@ -16,9 +16,9 @@ spring:
     hibernate:
       ddl-auto: create
 mail:
-  host: ZwRnIoSNJk0Hai8c1PuOtw==
-  username: xlIo0FBQUNw5q5NCP3QJ9BnlPdtFMDDvl7xc1Hwe11g=
-  password: ZJhSLb7uauAw+MuKbpcvVA==
+  host: PDLHLGCVjy1AOCuq/vU2sg==
+  username: itilLqVuKih/3fhESJHrUlZiQ02Vzr9uWq4iD4Hb5IE=
+  password: 2yC3mLymqaIOZypeZNFPIohmZbYwya2+dyu3JJRSRCc=
 
 logging:
   pattern:

@@ -28,16 +28,14 @@ public class MailSenderConfig {
     @Bean
     public JavaMailSender javaMailSender() {
         Properties properties = new Properties(){{
-            put("mail.transport.protocol", "smtps");
             put("mail.smtp.auth", "true");
             put("mail.smtp.starttls.enable", "true");
-            put("mail.debug", "false");
         }};
         return new JavaMailSenderImpl(){{
             setHost(host);
             setUsername(username);
             setPassword(password);
-            setPort(465);
+            setPort(587);
             setJavaMailProperties(properties);
             setDefaultEncoding("UTF-8");
         }};

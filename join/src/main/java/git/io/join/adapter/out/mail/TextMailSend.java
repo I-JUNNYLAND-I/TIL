@@ -19,27 +19,20 @@ public interface TextMailSend {
     @Component
     class Naver implements TextMailSend {
         private final JavaMailSender javaMailSender;
-        private final String from;
 
         public Naver(JavaMailSender javaMailSender,
-                     Encrypt encrypt,
-                     @Value("${mail.host}") String from) {
+                     Encrypt encrypt) {
             this.javaMailSender = javaMailSender;
-            this.from = encrypt.decryptAES256(from);
         }
 
         @Override
         public void send(SenderRequest request) {
-            MimeMessage mimeMessage = javaMailSender.createMimeMessage();
-            MimeMessageHelper mailHelper = new MimeMessageHelper(mimeMessage, "UTF-8");
-            try {
-                mailHelper.setFrom(from);
-                mailHelper.setTo(request.to);
-                mailHelper.setSubject(request.title);
-                mailHelper.setText(request.text);
-            } catch (MessagingException e) {
-                throw new RuntimeException(e);
-            }
+            SimpleMailMessage mimeMessage = new SimpleMailMessage(){{
+                setFrom("ADMIN@junnyland.site");
+                setTo(request.to);
+                setSubject(request.title);
+                setText(request.text);
+            }};
             javaMailSender.send(mimeMessage);
         }
 

@@ -13,6 +13,6 @@ class TextMailSendTest implements IntegrationTestBase {
     TextMailSend textMailSend;
     @Test
     void send() {
-        textMailSend.send(toFormat("tktmsmsrkfkt14@gmail.com","test","test"));
+        textMailSend.send(toFormat("chbe5082@naver.com","test","test"));
     }
 }
