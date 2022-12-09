@@ -19,7 +19,7 @@ private static class IntegerCache {
         ...
 ```
 
-직접 Cache 사이즈를 지정해 두지 않는다면 `-127~128(1byte)` 만큼을 캐시해둡니다.
+직접 Cache 사이즈를 지정해 두지 않는다면 `-127~128(1byte)` 만큼을[ 캐시](../../computer-science/design-pattern/flyweight.md)해둡니다.
 
 ```java
     public static void main(String[] args) throws IOException, InterruptedException {
