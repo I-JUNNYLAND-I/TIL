@@ -4,8 +4,7 @@ import git.io.join.IntegrationTestBase;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import static git.io.join.adapter.out.mail.TextMailSend.toFormat;
-import static org.junit.jupiter.api.Assertions.*;
+import static git.io.join.adapter.out.mail.TextMailSend.request;
 
 class TextMailSendTest implements IntegrationTestBase {
 
@@ -13,6 +12,6 @@ class TextMailSendTest implements IntegrationTestBase {
     TextMailSend textMailSend;
     @Test
     void send() {
-        textMailSend.send(toFormat("chbe5082@naver.com","test","test"));
+        textMailSend.send(request("chbe5082@naver.com","test","test"));
     }
 }
