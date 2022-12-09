@@ -1,6 +1,7 @@
-package git.io.join.application.out;
+package git.io.join.adapter.out;
 
 import git.io.join.IntegrationTestBase;
+import git.io.join.adapter.out.CacheRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
