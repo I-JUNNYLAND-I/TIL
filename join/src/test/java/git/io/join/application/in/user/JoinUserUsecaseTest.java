@@ -1,7 +1,6 @@
 package git.io.join.application.in.user;
 
 import git.io.join.IntegrationTestBase;
-import git.io.join.adapter.out.CacheRepository;
 import git.io.join.adapter.out.FakeCacheRepository;
 import git.io.join.application.in.token.TokenUseCase;
 import git.io.join.application.out.FakeUserOutPort;

@@ -1,7 +1,6 @@
 package git.io.join.application.in.token;
 
-import git.io.join.adapter.out.CacheRepository;
-import git.io.join.adapter.out.token.TokenOutAdapter;
+import git.io.join.application.out.token.CacheRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

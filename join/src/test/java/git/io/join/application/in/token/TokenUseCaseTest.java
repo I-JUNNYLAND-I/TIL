@@ -1,6 +1,6 @@
 package git.io.join.application.in.token;
 
-import git.io.join.adapter.out.CacheRepository;
+import git.io.join.application.out.token.CacheRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

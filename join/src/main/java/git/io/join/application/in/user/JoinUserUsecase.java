@@ -1,6 +1,6 @@
 package git.io.join.application.in.user;
 
-import git.io.join.adapter.out.CacheRepository;
+import git.io.join.application.out.token.CacheRepository;
 import git.io.join.application.out.user.UserOutPort;
 import git.io.join.domain.User;
 import git.io.join.exception.UserException;
