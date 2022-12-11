@@ -1,9 +1,11 @@
 package git.io.join.application.in.user;
 
 import git.io.join.IntegrationTestBase;
-import git.io.join.adapter.out.FakeCacheRepository;
 import git.io.join.application.in.token.TokenUseCase;
 import git.io.join.application.out.FakeUserOutPort;
+import git.io.join.application.out.token.CacheRepository;
+import git.io.join.application.out.token.FakeCacheRepository;
+import git.io.join.domain.JunnyToken;
 import git.io.join.domain.User;
 import git.io.join.exception.UserException;
 import org.junit.jupiter.api.DisplayName;
@@ -20,9 +22,7 @@ class JoinUserUsecaseTest implements IntegrationTestBase {
 
     JoinUserUsecase joinUserUsecase = new JoinUserUsecase.JoinUser(new FakeUserOutPort(), new FakeCacheRepository());
 
-    @Autowired
-    TokenUseCase tokenUseCase;
-
+    TokenUseCase tokenUseCase = new TokenUseCase.Token(new FakeCacheRepository());
 
     @Test
     @DisplayName("유저가 신청했을 때 토큰이 없으면 에러가 발생한다.")
@@ -36,7 +36,7 @@ class JoinUserUsecaseTest implements IntegrationTestBase {
                 "010-5576-3376"
         );
 
-        assertThatThrownBy(() -> joinUserUsecase.signUp(user))
+        assertThatThrownBy(() -> joinUserUsecase. signUp(user))
                 .isInstanceOf(UserException.class)
                 .hasMessage("토큰이 유효 하지 않습니다.");
     }
@@ -46,7 +46,7 @@ class JoinUserUsecaseTest implements IntegrationTestBase {
     void signSave() {
         //given
 
-        String token = tokenUseCase.makeToken();
+        String token = tokenUseCase.makeToken("lsun606@naver.com");
 
         User user = new User(
                 token,

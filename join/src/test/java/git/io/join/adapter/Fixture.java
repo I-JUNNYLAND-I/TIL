@@ -1,5 +1,6 @@
 package git.io.join.adapter;
 
+import git.io.join.application.out.token.CacheRepository;
 import git.io.join.application.out.token.TokenOutPort;
 
 public class Fixture {
